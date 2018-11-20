@@ -1,0 +1,7 @@
+/target/
+/.settings/
+/.classpath
+/.project
+/.vertx/
+/.idea/
+*.iml
