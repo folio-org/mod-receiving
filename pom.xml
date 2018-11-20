@@ -45,8 +45,6 @@
     <vertx.version>3.5.4</vertx.version>
     <aspectj.version>1.8.9</aspectj.version>
     <http.port>8081</http.port>
-    <ramlfiles_path>${basedir}/ramls</ramlfiles_path>
-    <ramlfiles_util_path>${ramlfiles_path}/raml-util</ramlfiles_util_path>
     <raml-module-builder.version>23.1.0</raml-module-builder.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
@@ -124,7 +122,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-shade-plugin</artifactId>
-        <version>2.4</version>
+        <version>3.1.1</version>
         <executions>
           <execution>
             <phase>package</phase>
@@ -140,4 +138,5 @@
       </plugin>
     </plugins>
   </build>
+
 </project>
